@@ -1,0 +1,61 @@
+.container {
+  max-width: 960px;
+}
+
+.lh-condensed { line-height: 1.25; }
+
+
+.cardparagraph{
+  margin-top: -20px;
+}
+.cardavailable{
+  margin-bottom: 15px;
+}
+
+.codesize{
+  font-size: 12px;
+}
+
+.card-body{
+  margin-top: -15px;
+  margin-bottom: -10px;
+}
+
+.card{
+  margin-top: 20px;
+}
+
+
+
+/* 0size to 767size */
+@media (max-width: 767px) {
+  .aligntext{
+    text-align: left;
+    margin-top: -13px;
+  }
+  .card-title-price{
+    font-size: 16px;
+    margin-top: 0px;
+
+
+  }
+
+  .availabledisplay{
+    display: none;
+  }
+}
+
+/* 769size to 1080size */
+@media (min-width: 768px) {
+  .aligntext{
+    text-align: right;
+  }
+
+  .availabledisplay2{
+    display: none;
+  }
+
+  .card-title-price{
+    margin-top: 20px;
+  }
+}

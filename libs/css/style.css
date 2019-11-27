@@ -1,0 +1,189 @@
+:root {
+    --mdc-theme-primary: #3399ff !important;
+    --mdc-theme-secondary: #3399ff; 
+    --mdc-theme-background: #3399ff; 
+    --mdc-theme-surface: #3399ff; 
+    --mdc-theme-on-primary: #3399ff;
+    --mdc-theme-on-secondary: #3399ff;
+    --mdc-theme-on-surface: #3399ff;
+  }
+  
+  .mdc-list-item--activated, .mdc-list-item__graphic { 
+    color:#000 !important;
+  }
+  
+  .material-icons{
+    color:#000 !important;
+  
+  }
+  
+  
+  body {
+      background: #f5f5f5;
+      display: flex;
+      height: 100vh;
+      margin: 0;
+    }
+  
+    
+    .mdc-drawer-app-content {
+      flex: auto;
+      overflow: auto;
+      position: relative;
+      background-color: #f5f5f5;
+      
+    }
+  
+    
+    .main-content {
+      overflow: auto;
+      height: 93% !important;
+      margin: 20px 50px;
+  
+    }
+  
+  
+  
+    .mdc-top-app-bar{
+      background-color: white;
+      color: black;
+    }
+  
+    .mdc-top-app-bar__section{
+      margin-left: 35px;
+    }
+  
+    .mdc-drawer__content{
+      background-color: white;
+      height: 93% !important;
+    }
+    
+    
+    .mdc-top-app-bar__navigation-icon {
+      display: none;
+    }
+    
+    .sidenav {
+      max-width: 250px;
+      height: 100%;
+      width: 100%;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: white;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+    }
+    
+    
+    .closebtn{
+        visibility: hidden;
+    }
+  
+    .footer{
+      vertical-align: bottom;
+      text-align: end;
+      align-self: flex-end;
+    }
+
+    /* .carddeals{
+      width: ;
+    } */
+
+    .tableborder{
+      border: none;
+    }
+
+    .textbottom{
+      vertical-align: bottom;
+      float: right;
+    }
+    
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+    }
+    
+    @media (max-width:768px) {
+  
+        .mdc-top-app-bar__navigation-icon {
+            display: block;
+          }
+  
+          .mdc-top-app-bar__section{
+            margin-left: 0px;
+          }
+    
+          .mdc-top-app-bar__section .headtitle{
+            margin-left: 20px;
+          }
+  
+        .mdc-drawer{
+          width: 0%;
+          z-index: 1;
+          top: 0;
+          left: 0;
+          }
+          .closebtn{
+              visibility: visible;
+          }
+  
+        .sidenav {
+          height: 100%;
+          width: 0%;
+          position: fixed;
+          z-index: 1;
+          top: 0;
+          left: 0;
+          background-color: #f1f1f1;
+          transition: 0.5s;
+          padding-top: 60px;
+        
+        }
+  
+        .main-content {
+          overflow: auto;
+          height: 100%;
+          margin: 20px 0px 0px 10px;    
+        }
+  
+     
+        
+        .sidenav a {
+          padding: 8px 8px 8px 32px;
+          text-decoration: none;
+          font-size: 25px;
+          color: #818181;
+          display: block;
+          transition: 0.3s;
+        }
+        
+        .sidenav a:hover {
+          color: #f1f1f1;
+        }
+        
+        .sidenav .closebtn {
+          position: absolute;
+          top: 0;
+          right: 25px;
+          font-size: 36px;
+          margin-left: 50px;
+        }
+  
+       .mdc-top-app-bar{
+           position: unset;
+       }
+
+       .cardtextmin{
+        font-size: small;
+       }
+     
+  }
+
+  a.deco-none {
+    color:#000000 !important;
+    text-decoration:none;
+
+}
